@@ -8,14 +8,8 @@
 
 body, html{
     background: url(../imagens/Fundo_home.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+   
 }
-
-
-
-
 
 header {
     background-color: #24252a;
@@ -81,7 +75,49 @@ header {
     display: none;
 }
 
+.main{
+    background-color: rgba(0, 0, 0, 0.521);
+    width: 80vw;
+    margin: auto;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.main h1{
+    text-align: center;
+    color: white;
+}
+
+.main p{
+    text-align: center;
+    color: white;
+}
+
+.main-redes{
+    background-color: rgba(0, 0, 0, 0.521);
+    padding-top: 20px;
+    margin: auto;   
+    border-radius: 0px 0px 10px 10px; 
+    text-align: center;
+    padding: 10px;
+    width: 80vw;
+   
+    
+}
+
+.main-redes img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 5px;
+   
+}   
+
+
 @media screen and (max-width: 730px) {
+
+
     .nav-bar {
         padding: 1.5rem 4rem;
     }
