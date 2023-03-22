@@ -85,13 +85,18 @@ header {
 }
 
 .main h1{
+    padding: 10px;
     text-align: center;
     color: white;
 }
 
 .main p{
-    text-align: center;
+    
+    text-indent: 40px;
+    text-align: justify;    
     color: white;
+    padding: 10px;
+   
 }
 
 .main-redes{
