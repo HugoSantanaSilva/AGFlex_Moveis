@@ -71,6 +71,12 @@ header {
     display: none;
 }
 
+.mobile-menu-icon img{
+    background-color: white;
+    border-radius: 50%;
+
+}
+
 .mobile-menu {
     display: none;
 }
