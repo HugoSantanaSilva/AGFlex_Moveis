@@ -12,7 +12,7 @@ body, html{
 }
 
 header {
-    background-color: #24252a;
+    background-color: black;
     box-shadow: 0px 3px 10px #464646;
 }
 
@@ -49,8 +49,19 @@ header {
 .nav-link {
     text-decoration: none;
     font-size: 1.15rem;
-    color: #fff;
+    color: white;
     font-weight: 400;
+}
+
+.nav-link:hover{
+    font-weight: bolder;
+    background-color: white;
+    border-radius: 2px;    
+    color: black;
+    
+    transition: 1s;
+   
+   
 }
 
 .login-button button {
@@ -169,4 +180,66 @@ header {
     }
 }
 
+
+/* Formatação Pagina Catalogo */
+
+
+.catalogo{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px; 
+    margin-top: 40px; 
+    margin-left: 40px; 
+    
+    
+}
+
+.catalogo img{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;  
+    
+    
+}
+
+.catalogo p{
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+/* Formatação Pagina Contato*/
+
+.mapa iframe {
+    
+    display: block;
+    margin: auto;
+    padding: 20px;    
+    width: 75vw;
+    height: 400px;
+    border-radius: 25px;
+    
+}
+
+.form {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    fo
+    color: white;
+    padding: 10px;
+    margin-bottom: 25px;
+    display: block;
+    margin: auto;
+    padding: 20px;    
+    width: 50vw;
+    height: 400px;
+    border-radius: 25px;
+
+}
 

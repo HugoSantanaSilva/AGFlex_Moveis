@@ -6,6 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/style.css">
+    <style>
+        html, body{
+            background: url(../imagens/Fundo_contato.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
       
 
     <title>AGflex Moveis</title>
@@ -46,21 +53,33 @@
     </header>
 
     <main>
-        <div class="main">
-        <h1>Quem Somos?</h1>
-        <p>Bem-vindo ao mundo da Agflex Móveis! Somos uma empresa especializada na fabricação e reforma de cadeiras profissionais, com mais de 22 anos de experiência no mercado. Se você está procurando por cadeiras de qualidade para a sua empresa ou organização, você veio ao lugar certo.</p>
-        <p>Nós sabemos que cadeiras confortáveis e ergonômicas são essenciais para a saúde e o bem-estar dos seus funcionários, e é por isso que dedicamos nossos esforços para oferecer produtos de alta qualidade e durabilidade. Todos os nossos produtos são fabricados com materiais de primeira qualidade.</p>
-        <p>Além da fabricação de cadeiras profissionais, também oferecemos serviços de reforma para ajudar a prolongar a vida útil das suas cadeiras e reduzir custos. Nós nos orgulhamos de oferecer um serviço personalizado e atendimento ao cliente de primeira qualidade.</p>
-        <p>Explore nosso site para saber mais sobre os nossos produtos e serviços, e não hesite em nos contatar se tiver alguma dúvida ou precisar de ajuda para escolher a cadeira perfeita para sua empresa ou organização.</p>
-    </div>
+        <div class="main-redes">
+            <a href="https://m.facebook.com/cadeiramocho/posts/1507320336098767/" target="_blank"><img src="../imagens/Logos/logo-facebook.jpg" alt="facebook" ></a>
+            <a href="https://www.instagram.com/agflexmoveis/" target="_blank"><img src="../imagens/Logos/logo-instagram.jpg" alt="instagram"></a>
+            <a href="https://wa.me/message/6UELTWS6P4I3A1" target="_blank"><img src="../imagens/Logos/whatsapp-logo-A5A7F17DC1-seeklogo.com.png" alt="whatsapp"></a>
+            <a href="contato@agflexmoveis.com.br" target="_blank"><img src="../imagens/Logos/logo-mail.png" alt="email"></a>        
+    
+        </div>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.3382033108455!2d-46.59599838535237!3d-23.69961367259669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce447622c3bbf1%3A0xcbd7e818d5709294!2sA%20G%20Flex%20M%C3%B3veis!5e0!3m2!1spt-BR!2sbr!4v1679624678802!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
 
-    <div class="main-redes">
-        <a href="#"><img src="imagens/Logos/logo-facebook.jpg" alt=""></a>
-        <a href="#"><img src="imagens/Logos/logo-instagram.jpg" alt=""></a>
-        <a href="#"><img src="imagens/Logos/logo-twitter.jpg" alt=""></a>
+        <div class="form">
+            <form action="email.php" method="get" autocomplete="on">
+                <fieldset>
+                    <legend>Envie-nos uma Mensagem</legend>
+                    <p><label for="inome">Nome:</label><input type="text" name="nome" id="inome"></p> 
+                    <p>E-mail: <input type="email" name="email" id="iemail"></p>
+                    <p>Telefone: <input type="tel" name="telefone" id="itelefone"></p>
+                    <p>Mensagem: <br>
+                    <textarea name="mensagem" id="" cols="30" rows="10"></textarea></p>
+                </fieldset>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </form>
+
+        </div>
      
-
-    </div>
     </main>
 
     <script src="../JS/JSpages.js"></script>
